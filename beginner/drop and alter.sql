@@ -1,0 +1,14 @@
+create database students;
+create database production;
+create database employee;
+show databases;
+use students;
+create table details(name varchar(12),rollno varchar(10),department varchar(5));
+insert into details values('VINOTHINI','15BEE214','EEE');
+insert into details values('RAHASUDHA','15BEE085','EEE');
+alter table details drop rollno;
+select * from details;
+use production;
+create table details(product varchar(23),workers varchar(12));
+insert into details values('banana','vino');
+insert into details values('tomatoe','sudha');
