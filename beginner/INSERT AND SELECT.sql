@@ -1,0 +1,11 @@
+create database students;
+show databases;
+use students;
+create table details(name varchar(25),rollno varchar(8),college char(20),dept char(9));
+describe details;
+insert into details values('VINOTHINI','15BEE214','KCT','EEE');
+insert into details values('RAHASUDHA','15BEE085','KCT','EEE');
+insert into details values('BRINDHA','15BEE077','KCT','EEE');
+insert into details values('HARINI','15BEE081','KCT','EEE');
+desc details;
+select * from details;
